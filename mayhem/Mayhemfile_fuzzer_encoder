@@ -1,0 +1,6 @@
+project: savantenvs/flac
+target: fuzzer_encoder
+cmds:
+  - cmd: /mayhem/fuzzer_encoder
+    libfuzzer: true
+    dictionary: /mayhem/oss-fuzz/fuzzer_encoder.dict

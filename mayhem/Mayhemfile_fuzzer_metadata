@@ -1,0 +1,5 @@
+project: savantenvs/flac
+target: fuzzer_metadata
+cmds:
+  - cmd: /mayhem/fuzzer_metadata
+    libfuzzer: true

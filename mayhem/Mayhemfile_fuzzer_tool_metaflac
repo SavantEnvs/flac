@@ -1,0 +1,5 @@
+project: savantenvs/flac
+target: fuzzer_tool_metaflac
+cmds:
+  - cmd: /mayhem/fuzzer_tool_metaflac
+    libfuzzer: true

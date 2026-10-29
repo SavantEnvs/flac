@@ -1,0 +1,9 @@
+project: savantenvs/flac
+target: fuzzer_tool_flac
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzzer_tool_flac/testsuite
+cmds:
+  - cmd: /mayhem/fuzzer_tool_flac
+    libfuzzer: true
+    dictionary: /mayhem/oss-fuzz/fuzzer_tool_flac.dict
